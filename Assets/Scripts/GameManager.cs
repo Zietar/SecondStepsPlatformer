@@ -34,6 +34,6 @@ public class GameManager : MonoBehaviour
 
         string nextScene = "Level" + (int.Parse(sceneName.Replace("Level", "")) + 1);
 
-        SceneManager.LoadScene(Application.CanStreamedLevelBeLoaded(nextScene) ? nextScene : "MainMenu");
+        SceneManager.LoadScene(Application.CanStreamedLevelBeLoaded(nextScene) ? nextScene : "Scoreboard");
     }
 }
