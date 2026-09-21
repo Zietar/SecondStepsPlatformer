@@ -10,9 +10,18 @@ public class CameraFollow : MonoBehaviour
     private float accelerationDuration = 3f;
     private float elapsedTime = 0f;
 
+    private Transform trophyTransform;
+
     private void Awake()
     {
         target = GameObject.Find("Player").transform;
+
+        trophyTransform = GameObject.Find("Trophy").transform;
+        if (trophyTransform != null)
+        {
+            transform.position = trophyTransform.position + offset;
+        }
+        
     }
 
     private void LateUpdate()
