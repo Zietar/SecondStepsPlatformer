@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerAnimation : MonoBehaviour
 {
@@ -6,6 +7,8 @@ public class PlayerAnimation : MonoBehaviour
     private Animator animator;
     private PlayerMovement playerMovement;
     private bool isFacingRight = true;
+
+    private float horizontalInput;
 
     private void Awake()
     {
@@ -21,7 +24,11 @@ public class PlayerAnimation : MonoBehaviour
         animator.SetBool("IsJumping", !playerMovement.IsGrounded());
 
 
-        float horizontalInput = Input.GetAxis("Horizontal");
+        float kb = 0f;
+        if (Keyboard.current.aKey.isPressed) kb -= 1f;
+        if (Keyboard.current.dKey.isPressed) kb += 1f;
+
+        horizontalInput = kb;
         if (horizontalInput > 0 && !isFacingRight)
         {
             Flip();

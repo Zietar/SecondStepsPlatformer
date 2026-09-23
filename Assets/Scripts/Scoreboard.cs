@@ -7,12 +7,13 @@ public class Scoreboard : MonoBehaviour
     [SerializeField] private TextMeshProUGUI Level2Text;
     [SerializeField] private TextMeshProUGUI Level3Text;
     [SerializeField] private TextMeshProUGUI Level4Text;
+    [SerializeField] private TextMeshProUGUI Level5Text;
 
-    private const int LevelCount = 4;
+    private const int LevelCount = 5;
 
     private void Start()
     {
-        TextMeshProUGUI[] levelTexts = { Level1Text, Level2Text, Level3Text, Level4Text };
+        TextMeshProUGUI[] levelTexts = { Level1Text, Level2Text, Level3Text, Level4Text, Level5Text };
 
         for (int i = 0; i < LevelCount; i++)
         {

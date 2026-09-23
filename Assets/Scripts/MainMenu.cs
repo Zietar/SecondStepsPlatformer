@@ -1,6 +1,8 @@
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -11,6 +13,10 @@ public class MainMenu : MonoBehaviour
     public void PlayButton()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Level1");
+    }
+    public void RestartButton()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void BackButton()
