@@ -2,20 +2,25 @@ using UnityEngine;
 
 public class DeathArea : MonoBehaviour
 {
-    private Transform playerTransform;
-    private Transform respawnPointTransform;
+    private GameObject playerGameObject;
+    private GameObject respawnPointGameObject;
 
     private void Awake()
     {
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
-        respawnPointTransform = GameObject.FindGameObjectWithTag("RespawnPoint").transform;
+        playerGameObject = GameObject.Find("Player");
+        respawnPointGameObject = GameObject.Find("RespawnPoint");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (playerGameObject == null || respawnPointGameObject == null)
         {
-            playerTransform.position = respawnPointTransform.position;
+            Debug.LogError("[DeathArea] Player or RespawnPoint object not found in the scene.");
+            return;
+        }
+        else if (collision.CompareTag("Player"))
+        {
+            playerGameObject.transform.position = respawnPointGameObject.transform.position;
         }
     }
 }

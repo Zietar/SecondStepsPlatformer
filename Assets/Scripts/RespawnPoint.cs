@@ -2,14 +2,18 @@ using UnityEngine;
 
 public class RespawnPoint : MonoBehaviour
 {
-    private Transform playerTransform;
+    private GameObject playerGameObject;
 
-    void Awake()
+    private void Awake()
     {
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
-        if (playerTransform != null)
+        playerGameObject = GameObject.Find("Player");
+        if (playerGameObject == null)
         {
-            transform.position = playerTransform.position;
+            Debug.LogError("[RespawnPoint] Player object not found in the scene.");
+        }
+        else
+        {
+            transform.position = playerGameObject.transform.position;
         }
     }
 }

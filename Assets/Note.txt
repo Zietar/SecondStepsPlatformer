@@ -1,3 +1,0 @@
-Update 1.0.1
-
- - Dodano przyciski restartu poziomu i powrotu do menu głównego do ekarnu poziomu.

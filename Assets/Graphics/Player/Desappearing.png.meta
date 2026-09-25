@@ -1,0 +1,388 @@
+fileFormatVersion: 2
+guid: 93ae00b4ef348d04fa33adea6e4c49af
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4241635684806205602
+    second: Desappearing (96x96)_0
+  - first:
+      213: 5641638529897069760
+    second: Desappearing (96x96)_1
+  - first:
+      213: 203894707262023572
+    second: Desappearing (96x96)_2
+  - first:
+      213: -2011412612036983366
+    second: Desappearing (96x96)_3
+  - first:
+      213: 2053719668135419293
+    second: Desappearing (96x96)_4
+  - first:
+      213: -6415160527855421042
+    second: Desappearing (96x96)_5
+  - first:
+      213: -8265649554163657122
+    second: Desappearing (96x96)_6
+  - first:
+      213: 147751383843866547
+    second: Desappearing (96x96)_7
+  - first:
+      213: -7334194954934852009
+    second: Desappearing (96x96)_8
+  - first:
+      213: -6638708435608769194
+    second: Desappearing (96x96)_9
+  - first:
+      213: -4407149445699255145
+    second: Desappearing (96x96)_10
+  - first:
+      213: 8120921742790583571
+    second: Desappearing (96x96)_11
+  - first:
+      213: -8085166151903269623
+    second: Desappearing (96x96)_12
+  - first:
+      213: -3118814604462738066
+    second: Desappearing (96x96)_13
+  - first:
+      213: -4434315836967641930
+    second: Desappearing (96x96)_14
+  - first:
+      213: 1885930654647884406
+    second: Desappearing (96x96)_15
+  - first:
+      213: -1356776093285034372
+    second: Desappearing (96x96)_16
+  - first:
+      213: 1145551289197516908
+    second: Desappearing (96x96)_17
+  - first:
+      213: -1762385121006684916
+    second: Desappearing (96x96)_18
+  - first:
+      213: -7657393764581625060
+    second: Desappearing (96x96)_19
+  - first:
+      213: -1548936450162122213
+    second: Desappearing (96x96)_20
+  - first:
+      213: 861828401276717446
+    second: Desappearing (96x96)_21
+  - first:
+      213: 5767600136282035795
+    second: Desappearing (96x96)_22
+  - first:
+      213: -525148074041801022
+    second: Desappearing (96x96)_23
+  - first:
+      213: 1794339060777077280
+    second: Desappearing (96x96)_24
+  - first:
+      213: 6186016023287685976
+    second: Desappearing (96x96)_25
+  - first:
+      213: -6715995366800800526
+    second: Desappearing (96x96)_26
+  - first:
+      213: -4986111098982585531
+    second: Desappearing (96x96)_27
+  - first:
+      213: 1956698721999182477
+    second: Desappearing (96x96)_28
+  - first:
+      213: -6936648182927367445
+    second: Desappearing (96x96)_29
+  - first:
+      213: -564791170713014073
+    second: Desappearing (96x96)_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Desappearing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a330566f2fccbaf4fb09ad972ec3f0c4
+      internalID: -260065071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0128ff97246fb4b458c074fad561382b
+      internalID: -1491856642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ede7332bd58a5342876f75fe0939f07
+      internalID: -1104852620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70fff2a6f1bcbe48a8295ee46545595
+      internalID: -12843087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88be02f654d2798419bcc84e0ce63305
+      internalID: 181689144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b5479f2d122fd41a455b549f928cfe
+      internalID: 866199610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desappearing_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a45d2c8fe3a7a488b6be148d8d1a29
+      internalID: -1869261965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1f023f06137c76a4895d0450022b6f40
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":96.0,"y":96.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Desappearing_0: -260065071
+      Desappearing_1: -1491856642
+      Desappearing_2: -1104852620
+      Desappearing_3: -12843087
+      Desappearing_4: 181689144
+      Desappearing_5: 866199610
+      Desappearing_6: -1869261965
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

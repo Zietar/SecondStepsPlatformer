@@ -1,0 +1,15 @@
+Update 1.0.1
+
+	added new buttons to the level UI: return to main menu and restart level
+
+	added decorative guiding arrows
+
+	added a new, currently hardest level 5
+
+Update 1.0.2
+
+	optimized the code and improved its maintainability to facilitate further development.
+	
+	minor changes to Level 5
+
+	added a button in the main menu that navigates to the scoreboard

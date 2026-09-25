@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8223053994357683338}
   - component: {fileID: 350746513172910741}
   - component: {fileID: 7547462996696727458}
-  - component: {fileID: 1007016656823692032}
+  - component: {fileID: 1750213302303375079}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -138,7 +138,7 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!114 &1007016656823692032
+--- !u!114 &1750213302303375079
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -147,6 +147,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7879039122322533160}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cae87e6f6ec1d64f8e3b5cb7a93c905, type: 3}
+  m_Script: {fileID: 11500000, guid: 52f0b940043aeb84fa4b085576b02eec, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
+  m_EditorClassIdentifier: Assembly-CSharp::MainCamera
